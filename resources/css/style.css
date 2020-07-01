@@ -1,0 +1,288 @@
+/* ========================= */
+/* BASIC SETUP============== */
+/* ========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;
+    
+}
+
+/*clearfix*/
+/* .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+} */
+/*BOTTON*/
+.btn:link,
+.btn:visited,
+.btn {
+    background-color: #333;
+    color: #fff;
+    border-bottom: .4rem solid #000;
+    text-decoration: none;
+    padding: 1.5rem 6rem;
+    border-radius: .4rem;
+    display: inline-block;
+    margin-top: 4.5rem;
+    font-size: 1.8rem;
+}
+
+/* ========================= */
+/* REUSABLE COMPONENTS====== */
+/* ========================= */
+.row {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+ul li {
+    list-style-type: none;
+}
+section {
+    padding: 100px;
+}
+/*HEADING*/
+h1 {
+    font-size: 4.2rem;
+    color: #fff;
+}
+h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1.7rem;
+    text-align: center;
+    color: #fff;
+}
+h2::after {
+    content: "";
+    display: block;
+    background: #fff;
+    height: .4rem;
+    width: 8.7rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*PRAGRAPHS*/
+p {
+    line-height: 2.6rem;
+}
+/*box*/
+.box {
+    padding: 1%;
+}
+.box p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 1.3rem;
+    color: #fff;
+}
+.title-dis {
+    margin: auto;
+    width: 60%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* ========================= */
+/* HEADER SECTION=========== */
+/* ========================= */
+header {
+    background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+    position: relative;
+}
+.logo {
+    margin: 5.8rem 0 0 0;
+    float: left;
+}
+/*MAIN-NAV*/
+.main-nav {
+    float: right;
+    margin: 6rem 0 0 0;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: .8rem;
+}
+.main-nav li:first-child {
+    margin-left: 0;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(100,58,121,0);
+    padding: .6rem 1.6rem;
+    border-radius: .4rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+    text-transform: uppercase;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    background-color: rgba(100,58,121,1);
+}
+.main-nav li.active a {
+    background-color: rgba(100,58,121,1);
+}
+/*HERO-TEXT-BOX*/
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.btn-hero:link,
+.btn-hero:visited {
+    background-color: #EB7D4B;
+    border-color: #C86A3F;
+}
+
+/* ========================= */
+/* SERVICES SECTION========= */
+/* ========================= */
+.services {
+    background: linear-gradient(rgba(23, 194, 163, 0.9), rgba(23, 194, 163, 0.9)), url(img/services-bg.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.services h2::after {
+    background: #14A58C;
+}
+.services img {
+    height: 12.5rem;
+    margin: 5rem 0;
+}
+
+/* ========================= */
+/* TEAM SECTION============= */
+/* ========================= */
+.team {
+    text-align-last: center;
+    background: linear-gradient(rgba(231, 241, 248, 0.9),rgba(231, 241, 248, 0.9)), url(img/team-bg.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.team h2 {
+    color: #3C4761;
+}
+.team h2::after {
+    background: #BDD1DF;
+}
+.team p.title-dis {
+    color: #3C4761;
+}
+.team h3 {
+    color: #3C4761;
+}
+.team h3.ceo {
+    color: #27283D;
+}
+.team .role {
+    color: #30BAE7;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-top: .5rem;
+    display: inline-block;
+}
+.team .box > p {
+    color: #3C4761;
+}
+.team img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-top: 3.8rem;
+    margin-bottom: 3rem;
+    margin: 3rem 0;
+}
+/*Social-link*/
+.social-link ul li {
+    margin:3rem 0;
+    display: inline-block;
+}
+.social-link ul li a:link,
+.social-link ul li a:visited {
+    color: #fff;
+}
+.social-link ul li a:link i::before,
+.social-link ul li :visited i::before {
+    display: inline-block;
+    background: #BDD1DF;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: .5s;
+}
+.social-link ul li a:hover i::before {
+    background: #393939;
+    transform: rotate(360deg);
+}
+
+/* ========================= */
+/* SKILLS SECTION=========== */
+/* ========================= */
+.skills {
+    background: linear-gradient( rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(img/skill-bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.skills h2,
+.skills h3 {
+    color: #3C4761;
+}
+.skills h2::after {
+    background: #DFE8ED;
+}
+.skills p {
+    color: #3c4761;
+}
+.skills .box {
+    margin-top: 8rem;
+}
+svg.radial-progress circle {
+    stroke-width: 7;
+}
+svg.radial-progress text {
+    fill: #3C4761;
+}
+svg.web-design circle {
+    stroke: #30BAE7;
+}
+svg.html-css circle {
+    stroke: #D74680;
+}
+svg.graphic-design circle {
+    stroke: #15C7A8;
+}
+svg.ui-ux circle {
+    stroke: #EB7D4B;
+}
