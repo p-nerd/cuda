@@ -81,6 +81,10 @@ h3 {
     text-align: center;
     text-transform: uppercase;
 }
+h4 {
+    color: #60584a;
+    font-size: 1.8rem;
+}
 
 /*PRAGRAPHS*/
 p {
@@ -285,4 +289,51 @@ svg.graphic-design circle {
 }
 svg.ui-ux circle {
     stroke: #EB7D4B;
+}
+
+/* ========================= */
+/* PORTFOLIO SECTION======== */
+/* ========================= */
+.portfolio {
+    background:linear-gradient(rgba(255, 221, 153, 0.9),rgba(255, 221, 153, 0.9)), url(img/portfolio-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.portfolio h2 {
+    color: #393939;
+    font-size: 4rem;
+}
+.portfolio h2::after {
+    background-color: #e5c37f;
+}
+.portfolio p {
+    color: #393939;
+    font-size: 1.8rem;
+    width: 55.5rem;
+    margin: auto;
+}
+.portfolio .portfolio-filter button {
+    padding: 1rem 2.5rem;
+    border: 0;
+    border-radius: .5rem;
+    background: #ebc985;
+    margin: 4.5rem .3rem;
+    color: #393939;
+}
+.portfolio .col:nth-child(3) {
+    margin-left: 0;
+}
+.portfolio .portfolio-images {
+    width: 100%;
+    height: 30rem;
+}
+.portfolio .btn-portfolio {
+    background: #17c2a4;
+    border-color: #14a58c;
+    padding: 1.5rem 5rem;
+}
+.portfolio .btn-portfolio a {
+    color: #fff;
+    text-decoration: none;
 }
