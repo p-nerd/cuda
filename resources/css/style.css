@@ -321,6 +321,10 @@ svg.ui-ux circle {
     margin: 4.5rem .3rem;
     color: #393939;
 }
+.portfolio .portfolio-filter button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 .3rem  .5rem rgba(60, 71, 97, 0.5);
+}
 .portfolio .col:nth-child(3) {
     margin-left: 0;
 }
@@ -336,4 +340,7 @@ svg.ui-ux circle {
 .portfolio .btn-portfolio a {
     color: #fff;
     text-decoration: none;
+}
+.portfolio .portfolio-filter .mixitup-control-active {
+    background-color: #fff;
 }
