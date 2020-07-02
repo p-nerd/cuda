@@ -456,7 +456,7 @@ svg.ui-ux circle {
 .testimonial .testimonial-more {
     width: 30rem;
     float: left;
-    margin-left: 4.5rem;
+    margin-left: 3rem;
     margin-right: 4.5rem;
 }
 
@@ -506,6 +506,7 @@ svg.ui-ux circle {
     border-radius: .5rem;
     color: #fff;
 }
+
 .contact form ::placeholder {
     color: #fff;
     opacity: 1;
