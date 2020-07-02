@@ -525,3 +525,30 @@ svg.ui-ux circle {
 .contact .btn-submit:hover {
     cursor: pointer;
 }
+
+/* ========================= */
+/* FOOTER SECTION=========== */
+/* ========================= */
+
+footer {
+    background: #344b8e;
+    padding: 3.5rem;
+    text-align: center;
+    border-top: .1rem solid #3c5499;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 2.5rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+
+footer ul li:hover a {
+    color: #30bae7;
+}
