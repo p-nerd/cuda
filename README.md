@@ -1,1 +1,1 @@
-# Cuda - An awesome single page portfolio website
+# Cuda - An awesome single page portfolio Website
