@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 60%;
     scroll-behavior: smooth;
 }
 
@@ -56,14 +56,16 @@ ul li {
     list-style-type: none;
 }
 
-section {
+/* section {
     padding: 100px;
-}
+} */
 
 /*HEADING*/
 h1 {
-    font-size: 4.2rem;
+    font-size: 3.5rem;
     color: #fff;
+    width: 90rem;
+    margin: 0 auto;
 }
 
 h2 {
@@ -175,6 +177,7 @@ header {
 .main-nav li.active a {
     background-color: rgba(100, 58, 121, 1);
 }
+
 /* STICKY NAVIGATION */
 .sticky {
     position: fixed;
@@ -184,6 +187,7 @@ header {
     background: rgba(135, 80, 156, 0.9);
     padding: 1rem 0;
     box-shadow: 0 0 0 rgba(255, 255, 255, 0.9);
+    z-index: 9999;
 }
 
 .sticky .logo {
@@ -193,12 +197,14 @@ header {
 .sticky .main-nav {
     margin-top: .35rem;
 }
+
 .sticky li.active a {
     background-color: rgba(255, 255, 255, 0);
 }
 
 /*HERO-TEXT-BOX*/
 .hero-text-box {
+    width: 114rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -411,7 +417,7 @@ svg.ui-ux circle {
 
 .portfolio .portfolio-images {
     width: 100%;
-    height: 30rem;
+    height: auto;
 }
 
 .portfolio .btn-portfolio {

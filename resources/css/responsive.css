@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1024px) {
+    .row {
+        margin: 0 20px;
+    }
+
+    .hero-text-box {
+        width: 100%;
+    }
+
+    html {
+        font-size: 56%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .testimonial .testimonial-images {
+        width: 100%;
+        float: none;
+        text-align: center;
+
+    }
+
+    .testimonial .testimonial-more {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .span_1_of_2 {
+        width: 48%;
+    }
+
+    .contact form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact .col {
+        width: 49.2%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    /* .span_1_of_4 {
+        width: 49.2%;
+    } */
+
+    html {
+        font-size: 62%;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        width: 91%;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-top: 4rem;
+    } 
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    .span_1_of_2 {
+        width: 100%;
+    }
+    .contact .span_1_of_2 {
+        width: 100%;
+    }
+
+    footer li {
+        margin: .5rem 1rem;
+    }
+
+    footer ul li a {
+        font-size: 1.4rem;
+    } 
+}
