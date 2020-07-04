@@ -20,6 +20,10 @@ body {
 
 }
 
+:focus {
+    outline: 0;
+}
+
 /*clearfix*/
 /* .clearfix::after {
     content: "";
@@ -132,7 +136,7 @@ header {
     background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
+    height: 55rem;
     position: relative;
 }
 
