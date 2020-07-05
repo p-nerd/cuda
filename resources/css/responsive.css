@@ -1,4 +1,21 @@
 @media only screen and (max-width: 1024px) {
+    .mobile-manu span {
+        display: block;
+    }
+
+    .sticky {
+        width: 1024px;
+    }
+
+    .overly .close-btn {
+        top: -1%;
+        right: 2%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -15px;
+    }
+
     .row {
         margin: 0 20px;
     }
@@ -45,9 +62,18 @@
 }
 
 @media only screen and (max-width: 980px) {
-    /* .span_1_of_4 {
-        width: 49.2%;
-    } */
+    .sticky {
+        width: 980px;
+    }
+
+    .overly .close-btn {
+        top: -2%;
+        right: 2%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -10px;
+    }
 
     html {
         font-size: 62%;
@@ -59,21 +85,50 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .sticky {
+        width: 768px;
+    }
+
+    .overly .close-btn {
+        top: -2%;
+        right: 2%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -10px;
+    }
+
     h1 {
         width: 91%;
     }
+
     .span_1_of_4 {
         width: 49.2%;
     }
+
     footer ul li {
         margin: 5px 25px;
     }
+
     footer ul li a {
         font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 480px) {
+    .sticky {
+        width: 480px;
+    }
+
+    .overly .close-btn {
+        top: -2%;
+        right: 19%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -87px;
+    }
+
     h1 {
         font-size: 3rem;
     }
@@ -81,7 +136,8 @@
     h2 {
         font-size: 3rem;
         margin-top: 4rem;
-    } 
+    }
+
     .span_1_of_4 {
         width: 100%;
     }
@@ -89,6 +145,7 @@
     .span_1_of_2 {
         width: 100%;
     }
+
     .contact .span_1_of_2 {
         width: 100%;
     }
@@ -99,5 +156,65 @@
 
     footer ul li a {
         font-size: 1.4rem;
-    } 
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .sticky {
+        width: 414px;
+    }
+
+    .overly .close-btn {
+        top: -1%;
+        right: 31%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -150px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sticky {
+        width: 375px;
+    }
+
+    .overly .close-btn {
+        top: -1%;
+        right: 37%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -195px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .sticky {
+        width: 360px;
+    }
+
+    .overly .close-btn {
+        top: -1%;
+        right: 40%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -210px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .sticky {
+        width: 320px;
+    }
+
+    .overly .close-btn {
+        top: -1%;
+        right: 47%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -252px;
+    }
 }

@@ -12,3 +12,11 @@ $(document).ready(function () {
 	//MIXITUP (PORTFOLIO SECTION)
 	var mixer = mixitup('.filter-container');
 });
+
+function openNav() {
+	document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+	document.getElementById("myNav").style.width = "0%";
+}

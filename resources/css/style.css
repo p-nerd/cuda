@@ -136,7 +136,7 @@ header {
     background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 55rem;
+    height: 57rem;
     position: relative;
 }
 
@@ -204,6 +204,66 @@ header {
 
 .sticky li.active a {
     background-color: rgba(255, 255, 255, 0);
+}
+
+.sticky .mobile-manu span {
+    margin-top: 0;
+}
+
+/*MOBILE-NAVIGATION*/
+.mobile-manu span {
+    font-size: 4rem;
+    float: right;
+    margin-top: 5.5rem;
+    color: #fff;
+    display: none;
+}
+
+.mobile-manu span {
+    cursor: pointer;
+}
+
+.mobile-manu .overly {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color:rgba(255, 255, 255, 0.8); */
+    background-color: rgba(135, 80, 156, 0.9);
+    z-index: 5;
+    overflow-x: hidden;
+    transition: .5s;
+
+}
+
+.overlay-contant {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 18rem;
+}
+
+.overlay-contant a {
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    padding: .5rem 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.overlay-contant a:hover {
+    color: rgb(215, 70, 128)
+}
+
+.overly .close-btn {
+    color: #fff;
+    font-size: 7rem;
+    text-decoration: none;
+    position: absolute;
+    top: -3%;
+    right: 4%;
 }
 
 /*HERO-TEXT-BOX*/
