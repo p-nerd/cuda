@@ -82,6 +82,25 @@
     .span_1_of_4:nth-child(3) {
         margin-left: 0;
     }
+    .testimonial .col:nth-child(3), 
+    .testimonial .col:nth-child(4) {
+        margin-top: -5rem;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .sticky {
+        width: 812px;
+    }
+
+    .overly .close-btn {
+        top: -2%;
+        right: 10%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -60px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -112,6 +131,46 @@
 
     footer ul li a {
         font-size: 2rem;
+    }
+    .span_1_of_4:nth-child(3),
+    .span_1_of_4:nth-child(4) {
+        margin-top: -10rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .sticky {
+        width: 740px;
+    }
+
+    .overly .close-btn {
+        top: -2%;
+        right: 2%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -10px;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .sticky {
+        width: 736px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .sticky {
+        width: 667px;
+    }
+
+    .overly .close-btn {
+        top: -2%;
+        right: 2%;
+    }
+
+    .overlay-contant a {
+        margin: 0 0 0 -10px;
     }
 }
 

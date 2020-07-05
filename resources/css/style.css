@@ -1,11 +1,11 @@
 /* ========================= */
 /* BASIC SETUP============== */
 /* ========================= */
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
 }
 
 html {
@@ -75,6 +75,7 @@ h1 {
 h2 {
     font-size: 4rem;
     font-weight: 600;
+    margin-top: 15rem;
     margin-bottom: 1.7rem;
     text-align: center;
     color: #fff;
@@ -111,6 +112,7 @@ p {
 /*box*/
 .box {
     padding: 1%;
+    margin-bottom: 15rem;
 }
 
 .box p {
@@ -133,10 +135,13 @@ p {
 /* ========================= */
 
 header {
-    background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg) no-repeat center center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(135, 80, 156, 0.9)), to(rgba(135, 80, 156, 0.9))), url(img/hero-bg.jpg);
+    background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 57rem;
+    height: 85vh;
     position: relative;
 }
 
@@ -169,6 +174,7 @@ header {
     border-radius: .4rem;
     display: inline-block;
     font-size: 1.6rem;
+    -webkit-transition: .3s;
     transition: .3s;
     text-transform: uppercase;
 }
@@ -190,6 +196,7 @@ header {
     width: 100%;
     background: rgba(135, 80, 156, 0.9);
     padding: 1rem 0;
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 0 rgba(255, 255, 255, 0.9);
     z-index: 9999;
 }
@@ -229,10 +236,10 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    /* background-color:rgba(255, 255, 255, 0.8); */
     background-color: rgba(135, 80, 156, 0.9);
     z-index: 5;
     overflow-x: hidden;
+    -webkit-transition: .5s;
     transition: .5s;
 
 }
@@ -246,15 +253,16 @@ header {
 
 .overlay-contant a {
     display: block;
-    font-size: 3rem;
+    font-size: 2.9rem;
     text-align: center;
     padding: .5rem 0;
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .overlay-contant a:hover {
-    color: rgb(215, 70, 128)
+    color: #d74680
 }
 
 .overly .close-btn {
@@ -272,6 +280,7 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -287,6 +296,7 @@ header {
 /* ========================= */
 
 .services {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 194, 163, 0.9)), to(rgba(23, 194, 163, 0.9))), url(img/services-bg.jpg) no-repeat center center;
     background: linear-gradient(rgba(23, 194, 163, 0.9), rgba(23, 194, 163, 0.9)), url(img/services-bg.jpg) no-repeat center center;
     background-size: cover;
     color: #fff;
@@ -308,6 +318,7 @@ header {
 
 .team {
     text-align-last: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 241, 248, 0.9)), to(rgba(231, 241, 248, 0.9))), url(img/team-bg.jpg) no-repeat center center;
     background: linear-gradient(rgba(231, 241, 248, 0.9), rgba(231, 241, 248, 0.9)), url(img/team-bg.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
@@ -375,11 +386,13 @@ header {
     border-radius: 50%;
     font-size: 2rem;
     padding: 1rem;
+    -webkit-transition: .5s;
     transition: .5s;
 }
 
 .social-link ul li a:hover i::before {
     background: #393939;
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 
@@ -388,6 +401,7 @@ header {
 /* ========================= */
 
 .skills {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url(img/skill-bg.jpg) no-repeat;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/skill-bg.jpg) no-repeat;
     background-size: cover;
     text-align: center;
@@ -439,6 +453,7 @@ svg.ui-ux circle {
 /* ========================= */
 
 .portfolio {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 221, 153, 0.9)), to(rgba(255, 221, 153, 0.9))), url(img/portfolio-bg.jpg) no-repeat center center;
     background: linear-gradient(rgba(255, 221, 153, 0.9), rgba(255, 221, 153, 0.9)), url(img/portfolio-bg.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
@@ -472,6 +487,7 @@ svg.ui-ux circle {
 
 .portfolio .portfolio-filter button:hover {
     cursor: pointer;
+    -webkit-box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97, 0.5);
     box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97, 0.5);
 }
 
@@ -505,6 +521,7 @@ svg.ui-ux circle {
 
 .testimonial {
     /* background: #d74680; */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 70, 128, 0.9)), to(rgba(215, 70, 128, 0.9))), url(img/testimonial-bg.jpg) no-repeat center center;
     background: linear-gradient(rgba(215, 70, 128, 0.9), rgba(215, 70, 128, 0.9)), url(img/testimonial-bg.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -567,9 +584,9 @@ svg.ui-ux circle {
 /* ========================= */
 
 .contact {
-    background: linear-gradient(rgba(60, 83, 153, 0.9), rgba(60, 83, 153, 0.9)), url(img/contact-bg.jpg) no-repeat center center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 83, 153, 0.9)), to(rgba(60, 83, 153, 0.9))), url(img/testimonial-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(60, 83, 153, 0.9), rgba(60, 83, 153, 0.9)), url(img/testimonial-bg.jpg) no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     text-align: center;
 }
 
@@ -598,6 +615,36 @@ svg.ui-ux circle {
     color: #fff;
 }
 
+.contact form ::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact form ::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact form :-ms-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact form ::-ms-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact form ::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.contact form :-ms-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
 .contact form ::placeholder {
     color: #fff;
     opacity: 1;
@@ -611,6 +658,7 @@ svg.ui-ux circle {
     background: #30bae7;
     border: 0 solid;
     border-bottom: .3rem solid #299ec5;
+    margin-bottom: 4rem;
 }
 
 .contact .btn-submit:hover {
