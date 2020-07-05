@@ -585,8 +585,9 @@ svg.ui-ux circle {
 
 .contact {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 83, 153, 0.9)), to(rgba(60, 83, 153, 0.9))), url(img/testimonial-bg.jpg) no-repeat center center;
-    background: linear-gradient(rgba(60, 83, 153, 0.9), rgba(60, 83, 153, 0.9)), url(img/testimonial-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(60, 83, 153, 0.9), rgba(60, 83, 153, 0.9)), url(img/contact-bg.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
 }
 
