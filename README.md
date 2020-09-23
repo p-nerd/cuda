@@ -1,1 +1,3 @@
-# Cuda - An awesome single page portfolio Website
+# Cuda
+
+A HTML & CSS Project. My first coding project. 
