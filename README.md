@@ -1,6 +1,6 @@
-# Cuda - An awesome single page portfolio html template
+# Cuda - An awesome single-page portfolio HTML template
 
 PSD to HTML Project
 
-Preview: https://shihab4t.github.io/cuda
+Live Preview: https://p-nerd.github.io/cuda
 
